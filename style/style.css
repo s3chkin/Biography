@@ -66,10 +66,14 @@ li {
     padding-top: 25px;
 }
 
-#navigation li a :hover {
+#navigation>#nav li a :hover {
     /* border-bottom: 2px solid rgb(253 105 0 / 92%);
     visibility: visible;
     transition: ease-in-out 0.3s; */
+    font-size: 50px;
+}
+
+#nav li a :hover {
     font-size: 50px;
 }
 
@@ -78,12 +82,12 @@ li {
     width: 25px;
 }
 
-a :hover {
+li :hover {
     color: rgb(255, 255, 255);
 }
 
 .active {
-    border-bottom: 2px solid rgb(253 105 0 / 92%);
+    border-bottom: 2px solid #fd6900eb;
     /* width: 50px; */
     visibility: visible;
 }
