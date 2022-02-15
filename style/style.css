@@ -3,6 +3,7 @@
     /* max-height: 100vh; */
     font-family: 'Oswald', sans-serif;
     transition: ease-in-out 0.3s;
+    color: aliceblue;
 }
 
 body {
@@ -120,11 +121,22 @@ li :hover {
     transition: ease-in-out 0.3s;
 }
 
+#header {
+    display: none;
+}
+
 
 /* =========================== ЗА МЕН =================== */
 
 .forMe {
-    display: none;
+    /* display: none; */
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#text {
+    float: left;
 }
 
 
