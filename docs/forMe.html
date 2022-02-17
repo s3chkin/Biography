@@ -20,11 +20,40 @@
 
 
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaQuery.css">
+
 </head>
 
 <body>
 
     <!-- =================== ЗА МЕН =================== -->
+
+    <!-- ------------------hamburger nav---------------- -->
+    <div id="responsiveNav">
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+
+                    <ul>
+                        <li><a href="" class="disabled" onclick="ClickChange()">Контакти</a></li>
+                        <li><a href="" class="disabled">Портфолио</a></li>
+                        <li onmouseover="hover()" id="hover"><a href="#forMe" class="active ">За мен</a></li>
+                        <li><a href="index.html" class="disabled">Начало</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            </nav>
+        </div>
+    </div>
+    <!-- ------------------hamburger nav---------------- -->
+
+
     <div id="forMe">
         <div class="nav2">
             <nav id="navigation2" class="fixed-top">
@@ -111,7 +140,7 @@
 
                     </div>
 
-                    <div>
+                    <div class="mySkills">
 
                         <!-- <h5 style="padding-bottom:10px; padding-top: 35px; margin-left: 85px;" class="info1">Умения</h3> -->
                         <div>

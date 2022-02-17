@@ -1,0 +1,35 @@
+/* за мен ================================================= */
+
+@media screen and (max-width: 1200px) {
+    #responsiveNav {
+        display: block;
+    }
+    .nav2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    #hobby {
+        width: 300px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1825px) {
+    #hobby {
+        width: 280px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+    .mySkills {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* за мен =================================================*/
