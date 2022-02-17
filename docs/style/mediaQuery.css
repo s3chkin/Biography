@@ -24,10 +24,51 @@
 }
 
 @media screen and (max-width: 1770px) {
-    .mySkills {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .skills {
+        width: 450px;
+    }
+    #Info {
+        float: none;
+    }
+    .fst-italic {
+        font-size: 14px;
+    }
+    #hobby {
+        width: 250px;
+        height: 80px;
+        margin-left: 15px;
+    }
+    /* .hobbyWindow {
+        display: flex;
+    } */
+}
+
+@media screen and (max-width: 580px) {
+    .forMe {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    .forMe {
+        margin-left: 0;
+        margin-right: 0;
+        background-color: rgba(0, 0, 0, 0.582);
+        border-style: none;
+        font-size: 20px;
+    }
+    .info-z2 {
+        float: none;
+        float: left;
+        width: 350px;
+    }
+    .fst-italic {
+        font-size: 21px;
     }
 }
 

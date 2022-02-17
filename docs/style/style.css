@@ -134,11 +134,13 @@
         margin-left: 200px;
         margin-right: 200px;
         padding-top: auto;
-        padding-bottom: 260px;
+        padding-bottom: 360px;
         border-color: #fd6900eb;
         border-style: groove;
         margin-bottom: 55px;
         height: auto;
+        padding-left: 85px;
+        padding-right: 85px;
     }
     
     #nameLink {
@@ -211,7 +213,6 @@
     .skills {
         padding-top: 25px;
         width: 550px;
-        margin-left: 85px;
     }
     
     .progress-bar {
@@ -219,7 +220,6 @@
     }
     
     .hobbyWindow {
-        margin-left: 85px;
         padding-bottom: 10px;
     }
     
@@ -234,6 +234,12 @@
         cursor: context-menu;
     }
     
+    .hobbyWindow2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
     #hobby {
         /* background-color: rgb(37, 37, 37); */
         background-color: rgba(66, 66, 66, 0.479);
@@ -245,6 +251,13 @@
         place-items: center;
         font-size: 20px;
         font-weight: 600;
+    }
+    
+    .info-z2 {
+        padding-top: 2px;
+        float: right;
+        width: 350px;
+        width: 300px;
     }
     
     #responsiveNav {
