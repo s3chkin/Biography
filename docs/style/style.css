@@ -301,6 +301,7 @@
         flex-direction: row;
         font-size: 30px;
         text-align: center;
+        padding: 10px;
     }
     
     .flex-item-left {
@@ -311,14 +312,19 @@
     
     .flex-item-right {
         background-color: rgba(255, 255, 255, 0.5);
-        /* padding: 10px; */
+        padding: 10px;
         flex: 50%;
         margin-left: 10px;
+        /* margin-bottom: 25px; */
     }
     
     @media (max-width: 800px) {
         .flex-container {
             flex-direction: column;
+        }
+        .flex-item-left,
+        .flex-item-right {
+            background-color: rgba(255, 0, 0, 0);
         }
     }
     /* contacts ================================== */
