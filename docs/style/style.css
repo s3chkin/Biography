@@ -155,6 +155,11 @@
         float: left;
     }
     
+    #Info {
+        float: right;
+        display: block;
+    }
+    
     .nav2 {
         display: flex;
         background-attachment: fixed;
@@ -266,86 +271,20 @@
     /* =========================== ЗА МЕН ========КРАЙ======= */
     /* =======================prtfolio ========================== */
     
-    .column {
-        float: left;
-        width: 25%;
-        padding: 0 10px;
-    }
-    /* Remove extra left and right margins, due to padding */
-    
     .row {
         padding-right: 10px;
-    }
-    /* Clear floats after the columns */
-    
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    /* Responsive columns */
-    
-    @media screen and (max-width: 600px) {
-        .column {
-            width: 100%;
-            display: block;
-            margin-bottom: 20px;
-        }
-    }
-    /* Style the counter cards */
-    
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 0;
-        text-align: center;
-        background-color: #000000;
-        display: fixed;
-        border-color: rgb(173, 173, 173);
-        border-width: 2px;
-        border-style: groove;
-    }
-    
-    .column {
-        float: left;
-        width: 55%;
-        padding: 0 10px;
-        box-sizing: border-box;
-        padding-bottom: 25px;
-    }
-    
-    .card:hover {
-        /* background-color: lawngreen; */
-        /* cursor: pointer; */
-        box-shadow: 0 4px 8px 0 rgb(241, 239, 239), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        text-align: center;
     }
     
     .row {
         margin: 0px;
-        padding-top: 70px;
-        padding-bottom: 85px;
-        /* font-style: italic; */
+        padding-top: 50px;
+        padding-bottom: 35px;
         font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    }
-    
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    
-    @media screen and (max-width: 850px) {
-        .column {
-            width: 100%;
-            /*50*/
-            display: block;
-            margin-bottom: 20px;
-        }
     }
     
     .respImg {
         margin-left: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         border-color: rgb(220, 236, 236);
         border-style: groove;
         border-width: 2px;
@@ -355,3 +294,31 @@
         box-shadow: 0 4px 8px 0 rgb(241, 239, 239), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     /* =========END============prtfolio ========================= */
+    /* contacts ================================== */
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .flex-item-left {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 10px;
+        flex: 50%;
+    }
+    
+    .flex-item-right {
+        background-color: rgba(255, 255, 255, 0.5);
+        /* padding: 10px; */
+        flex: 50%;
+        margin-left: 10px;
+    }
+    
+    @media (max-width: 800px) {
+        .flex-container {
+            flex-direction: column;
+        }
+    }
+    /* contacts ================================== */
