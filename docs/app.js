@@ -6,7 +6,7 @@ function hover() {
 
 
 function ClickChange() {
-    let forMe = document.getElementById("forMe").innerHTML();
+    let forMe = document.getElementById("body1").innerHTML();
     document.getElementById("header").innerHTML() = forMe;
 
 }
